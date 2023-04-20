@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    gap: 200px;
+    width: 100%;
+    height: 60px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    top: 2px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Cat{
+    margin-top: 18px;
+
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    left: 85px;
+    top: 8px;
+
+    background: #EEEEEE;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    z-index: 4;
+
+}
+.account__icon g{
+    fill: #0C263F;
+}
+.account__icon path {
+    stroke-width: 20px;
+}
