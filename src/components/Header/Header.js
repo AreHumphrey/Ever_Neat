@@ -1,25 +1,26 @@
 import React from 'react'
 import "./Header.css"
 import "./Search/Search"
-import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
-import AccountCircle from '@mui/icons-material/AccountCircle';
-import ShoppingCart from '@mui/icons-material/ShoppingCart';
+import {HiOutlineMenu} from 'react-icons/hi';
+import {RiSearch2Line} from 'react-icons/ri';
+import {MdAccountCircle} from 'react-icons/md';
+import {FiShoppingCart} from 'react-icons/fi';
+
 
 
 export default function ButtonAppBar() {
     return (
         <div className="App">
             <button className="button_catalog">
-                <MenuIcon className="icon__menu"/>
+                <HiOutlineMenu className="icon__menu"/>
                 Каталог
             </button>
             <button className="Search">
                 <input className="input_search"/>
-                <SearchIcon className="icon__search"/>
+                <RiSearch2Line className="icon__search"/>
             </button>
-            <ShoppingCart className="button_shop"/>
-            <AccountCircle className = "button__account"/>
+            <FiShoppingCart className="button_shop"/>
+            <MdAccountCircle className = "button__account"/>
         </div>
     );
 }

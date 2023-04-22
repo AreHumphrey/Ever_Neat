@@ -17,4 +17,109 @@
   color: #61dafb;
 }
 
+.delivery{
+  position: absolute;
+  width: 245px;
+  height: 37px;
+  left: 98px;
+  top: 300px;
+  font-style: normal;
+  line-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  white-space: nowrap;
+  color: #0C263F;
+}
+.delivery:active{
+  color: #0C263F;
+}
+.delivery {
 
+}
+.icon__truck{
+  position: absolute;
+  width: 37px;
+  height: 33px;
+  left: -44px;
+  top: 10px;
+  font-size: 28px;
+}
+.location{
+  position: absolute;
+  width: 245px;
+  height: 37px;
+  left: 450px;
+  top: 300px;
+  font-style: normal;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0C263F;
+
+}
+.icon__location{
+  position: absolute;
+  width: 37px;
+  height: 33px;
+  left: -44px;
+  top: 10px;
+  font-size: 28px;
+
+}
+.cetificate{
+  position: absolute;
+  width: 245px;
+  height: 37px;
+  left: 819px;
+  top: 300px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #0C263F;
+  border: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+.message{
+  position: absolute;
+  width: 245px;
+  height: 37px;
+  left: 1196px;
+  top: 300px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #0C263F;
+}
+.text_info{
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  text-align: left;
+  top: 40px;
+  white-space: pre-line;
+
+
+}

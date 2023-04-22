@@ -1,0 +1,26 @@
+.main-container {
+    height: 150px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.window {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.all-items-container {
+    height: 100%;
+    display: flex;
+
+}
+
+.arrow {
+    cursor: pointer;
+    color: #0C263F;
+
+}
