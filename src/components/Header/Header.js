@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import "./Search/Search"
+import {AiOutlineMinus} from 'react-icons/ai';
 import {HiOutlineMenu} from 'react-icons/hi';
 import {RiSearch2Line} from 'react-icons/ri';
 import {MdAccountCircle} from 'react-icons/md';
@@ -15,7 +16,9 @@ export default function ButtonAppBar() {
                     Каталог
                 </button>
                 <div className="dropdown-content">
-                    <button className="button_catalog_white"></button>
+                    <button className="button_catalog_white">
+                        <AiOutlineMinus/>
+                    </button>
                     <a href="#">Сувенирные носки</a>
                     <a href="#">Подарочные наборы</a>
                     <a href="#">Носки мужские</a>

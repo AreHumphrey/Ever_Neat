@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.side_bar_left{
+    width: 2%;
+    height: 100%;
+    background: #A8CFF5;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+.side_bar_right{
+    width: 2%;
+    height: 100%;
+    background: #A8CFF5;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 98%;
+    padding-top: 20px;
+}

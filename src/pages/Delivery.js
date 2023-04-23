@@ -1,8 +1,13 @@
 import Header from "../components/Header/Header";
 import "./HeaderLine.css";
+import Basement from "../components/Basement/Basement";
+import SideBar_left from "../components/SideBar/SideBar_left";
+import SideBar_right from "../components/SideBar/SideBar_right";
+
  function Delivery() {
      return(
          <div>
+         <SideBar_left/>
          <Header/>
         <h1 className="headerLine"> Оплата и доставка</h1>
              <div className="line">
@@ -29,8 +34,9 @@ import "./HeaderLine.css";
                  <h2 className="h3">Самовывоз</h2>
                  <b className="h3">Адрес: ул. Русская, 94 А.</b>
                  <b className="h3">Понедельник-пятница с 9.00 до 20.00 без перерывов на обед.</b>
-
              </div>
+             <SideBar_right/>
+             <Basement/>
 
          </div>
      );

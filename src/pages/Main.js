@@ -1,36 +1,27 @@
 import Header from "../components/Header/Header";
-import {Carousel} from "../components/Сarousel/Carousel";
-import {BrowserRouter,Routes, Route} from 'react-router-dom';
-import {FiTruck} from 'react-icons/fi';
-import {HiLocationMarker} from 'react-icons/hi';
-import {GrCertificate} from 'react-icons/gr';
-import {TbMessageCircle2} from 'react-icons/tb';
+import Info from "../components/Info/Info";
+import Basement from "../components/Basement/Basement";
 import "../App.css";
 import React from "react";
 import "./HeaderLine.css";
-function Main() {
+import {Carousel} from "../components/Сarousel/Carousel";
+import Catalog_Main from "../components/Catalog_main/Catalog_Main";
 
+function Main() {
 
 
     return (
         <div>
             <Header/>
-
-            <a href="/delivery" className="delivery"><FiTruck className={"icon__truck"}/> БЕСПЛАТНАЯ ДОСТАВКА <div
-                className="text_info">Заказы от 1500 руб. доставим бесплатно по Владивостоку!
-                Заказы от 1500 руб. доставим бесплатно по регионам РФ!</div></a>
-            <a href="/location" className="location"><HiLocationMarker
-                className={"icon__truck"}/> МЕСТОПОЛОЖЕНИЕ <div
-                className="text_info"> Владивосток, ул. Русская, 94 А</div></a>
-            <a href="/certificate" className="cetificate"><GrCertificate className={"icon__truck"}/> ВЫСОКОЕ
-                КАЧЕСТВО
-                <div className="text_info"> Изделия только из натуральных материалов</div>
-            </a>
-            <a href="/help" className="message"><TbMessageCircle2 className={"icon__truck"}/> НАША ПОДДЕРЖКА <div
-                className="text_info">Остались вопросы?
-                Звоните по телефону
-                +7 (423) 202-52-53</div></a>
-
+            <Carousel>
+                <div className="item-1"></div>
+                <div className="item-2"></div>
+                <div className="item-3"></div>
+            </Carousel>
+            <Info/>
+            <h1 className="h1">Каталог</h1>
+            <Catalog_Main/>
+            <Basement/>
 
         </div>
 

@@ -1,5 +1,6 @@
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
 import Main from "./pages/Main";
+
 import Delivery from "./pages/Delivery";
 import Location from "./pages/Location";
 import Certificate from "./pages/Certificate";

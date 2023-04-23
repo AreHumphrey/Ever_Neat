@@ -9,15 +9,15 @@ export const Carousel = ({children}) => {
 
     const handleLeftArrowClick = () => {
         setOffset((currentOffset) => {
-            return Math.min(currentOffset + 1000,0)
+            return Math.min(currentOffset + 1440,0)
         })
     }
 
     const handleRightArrowClick = () => {
 
-        const maxOffset = -(1000 * (pages.length - 1))
+        const maxOffset = -(1440 * (pages.length - 1))
         setOffset((currentOffset) => {
-            return  Math.max(currentOffset - 1000, maxOffset)
+            return  Math.max(currentOffset - 1440, maxOffset)
         })
     }
 
@@ -27,8 +27,8 @@ export const Carousel = ({children}) => {
                 return cloneElement(child, {
                     style: {
                         height: '100%',
-                        maxWidth: '1000px',
-                        minWidth: '1000px',
+                        maxWidth: '100%',
+                        minWidth: '100%',
                     },
                 })
             })

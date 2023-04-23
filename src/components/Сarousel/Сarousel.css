@@ -1,12 +1,15 @@
 .main-container {
+    top: 60px;
+    position: relative;
     height: 500px;
-    width: 1000px;
-    margin: auto;
+    width: 100%;
     display: flex;
     align-items: center;
+    z-index: 0;
 }
 
 .window {
+    z-index: inherit;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -14,12 +17,14 @@
 }
 
 .all-items-container {
+    z-index: inherit;
     height: 100%;
     display: flex;
 
 }
 
 .arrow {
+    z-index: inherit;
     cursor: pointer;
     color: #0C263F;
 

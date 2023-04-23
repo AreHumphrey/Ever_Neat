@@ -1,0 +1,124 @@
+.Inf {
+    z-index: 0;
+    top: 90px;
+    width: 1441px;
+    height: 243px;
+    position: relative;
+}
+
+.App-header {
+    z-index: 0;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.delivery{
+   position: absolute;
+    width: 245px;
+    height: 37px;
+    left: 98px;
+    font-style: normal;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #0C263F;
+}
+.delivery:active{
+    color: #0C263F;
+}
+
+.icon__truck{
+    position: absolute;
+    left: -44px;
+    top: 10px;
+    font-size: 35px;
+    display: flex;
+}
+.location{
+    position: absolute;
+    width: 245px;
+    height: 37px;
+    left: 450px;
+    font-style: normal;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0C263F;
+
+}
+.icon__location{
+    position: absolute;
+    width: 37px;
+    height: 33px;
+    left: -44px;
+    top: 10px;
+    font-size: 28px;
+    display: flex;
+
+}
+.cetificate{
+    position: absolute;
+    width: 245px;
+    height: 37px;
+    left: 819px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #0C263F;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.message{
+    position: absolute;
+    width: 245px;
+    height: 37px;
+    left: 1196px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #0C263F;
+}
+.text_info{
+    position: absolute;
+    font-style: normal;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    top: 40px;
+    white-space: pre-line;
+
+
+}
