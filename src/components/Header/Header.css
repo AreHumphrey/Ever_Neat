@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 .App{
     display: flex;
+    position: fixed;
     gap: 200px;
     width: 100%;
     height: 60px;
@@ -19,8 +21,8 @@
 
 .button_catalog {
     position: absolute;
-    top: 10px;
-    left: 85px;
+    top: 2px;
+    left: 10px;
     height: 40px;
     width: 210px;
     border: none;
@@ -35,12 +37,50 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-
+}
+.button_catalog_white{
+    height: 40px;
+    width: 210px;
+    border: none;
 
 }
-.button_catalog:active {
-    background: rgba(84, 154, 222, 0.7);
+.button_catalog_dropdown{
+    position: relative;
+    display: inline-block;
 }
+.dropdown-content{
+    position: absolute;
+    display: none;
+    width: 340px;
+    height: 290px;
+    left: 10px;
+    top: 3px;
+    background: rgba(238, 238, 238, 0.9);
+    box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.25);
+
+    border-radius: 35px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background: rgba(101, 157, 210, 0.45);
+    border-radius: 40px }
+
+/* Показать выпадающее меню при наведении курсора */
+.button_catalog_dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.button_catalog_dropdown:hover .button_catalog {box-shadow: 0 0 0 0 rgba(0,0,0,0); height: 45px; border-radius: 35px  }
+/* Line 2 */
+
+
 .icon__menu{
 
     color: #0C263F;
@@ -60,7 +100,7 @@
     left: 455px;
     top: 10px;
     background: #DCDCDC;
-    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.54);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.54);
     border: none;
     border-radius: 40px;
     flex: none;

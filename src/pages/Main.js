@@ -7,8 +7,7 @@ import {GrCertificate} from 'react-icons/gr';
 import {TbMessageCircle2} from 'react-icons/tb';
 import "../App.css";
 import React from "react";
-import Delivery from "./Delivery";
-
+import "./HeaderLine.css";
 function Main() {
 
 
@@ -16,10 +15,7 @@ function Main() {
     return (
         <div>
             <Header/>
-            <Carousel>
-                <div className="item item-1"> 1</div>
-                <div className="item item-2"> 2</div>
-            </Carousel>
+
             <a href="/delivery" className="delivery"><FiTruck className={"icon__truck"}/> БЕСПЛАТНАЯ ДОСТАВКА <div
                 className="text_info">Заказы от 1500 руб. доставим бесплатно по Владивостоку!
                 Заказы от 1500 руб. доставим бесплатно по регионам РФ!</div></a>
