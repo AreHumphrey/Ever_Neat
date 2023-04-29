@@ -6,7 +6,7 @@ import React from "react";
 import "./HeaderLine.css";
 import {Carousel} from "../components/Сarousel/Carousel";
 import Catalog_Main from "../components/Catalog_main/Catalog_Main";
-
+import Map from "../components/Map/Map"
 function Main() {
 
 
@@ -21,6 +21,7 @@ function Main() {
             <Info/>
             <h1 className="h1">Каталог</h1>
             <Catalog_Main/>
+            <Map/>
             <Basement/>
 
         </div>

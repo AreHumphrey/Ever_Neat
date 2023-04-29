@@ -2,6 +2,7 @@ import "./Basement.css"
 import React from "react";
 import {SlSocialVkontakte}  from "react-icons/sl";
 import {TiSocialYoutube}  from "react-icons/ti";
+import Requisites from "../../pages/Requisites";
 export default function Basement() {
     return (
         <div className="basement">
@@ -12,8 +13,8 @@ export default function Basement() {
             <a href="#" className="сolumn1_4">Личный кабинет</a>
             <div className="сolumn2">О компании</div>
             <a href="#" className="сolumn2_1">Вакансии</a>
-            <a href="#" className="сolumn2_2">Реквизиты</a>
-            <a href="#" className="сolumn2_3">Конфиденциальность</a>
+            <a href="/requisites" className="сolumn2_2">Реквизиты</a>
+            <a href="/confidentiality" className="сolumn2_3">Конфиденциальность</a>
             <div className="сolumn3">Контакты</div>
             <div className="сolumn3_1">Владивосток, ул. Русская, 94А</div>
             <div className="сolumn3_2">everneat@everneat.ru</div>

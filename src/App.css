@@ -15,12 +15,12 @@
 }
 
 .item-1 {
-  background-color: #DEDEDE;
+  background-image: url("../public/log.jpg");
   color: olive;
 }
 
 .item-2 {
-  background-color: #659DD2;;
+  background-color: #659DD2;
   color: #659DD2;
 }
 
